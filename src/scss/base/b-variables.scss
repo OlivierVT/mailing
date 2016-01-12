@@ -1,0 +1,30 @@
+@import "../mixins/_font-size.scss";
+@import "../mixins/_vendor.scss";
+@import "../mixins/_shared.scss";
+@import "../mixins/_support.scss";
+@import "../mixins/_transform.scss";
+@import "../mixins/_animation.scss";
+
+$black : rgba(26,26,26,1);
+$white: rgba(252,252,252,1);
+$btn: rgba(41, 128, 185,1.0);
+$btn_hover: rgba(52, 152, 219,1.0);
+$admin_link:rgba(44, 62, 80,1.0);
+
+$error: rgba(231, 76, 60,1.0);
+$valid:rgba(46, 204, 113,1.0);
+
+@mixin input-text{
+    font-family: 'Roboto', sans-serif;
+    @include font-size(12);
+}
+
+@mixin title{
+    font-family: 'Roboto', sans-serif;
+    @include font-size(32);
+}
+
+@mixin text{
+    font-family: 'Roboto', sans-serif;
+    @include font-size(16);
+}

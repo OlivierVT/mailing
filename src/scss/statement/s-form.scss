@@ -1,0 +1,14 @@
+.valid_email{
+    background: $valid;
+}
+.error_email{
+    background: $error;
+}
+
+.response{
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+    color: $white;
+    @include text;
+}

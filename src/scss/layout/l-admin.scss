@@ -1,0 +1,66 @@
+.title_admin{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.link{
+    color: $white;
+}
+.form_admin{
+    padding: 20px;
+    padding: 2rem;
+    padding-bottom: 30px;
+    padding-bottom: 3rem;
+}
+.admin_navigation{
+    margin-bottom: 30px;
+    margin-bottom: 3rem;
+}
+.nav_list{
+    &--elements{
+        @include input-text;
+        float: right;
+        padding: 10px;
+        padding: 1rem;
+        background: $btn;
+        border-radius: 4px;
+        border-radius: .4rem;
+
+        &:last-child{
+            float: left;
+            background: $valid;
+        }
+    }
+}
+
+.fieldset_admin{
+    width: 100%;
+}
+.field_admin{
+    width: 84%;
+}
+
+.secundary_title{
+    @include title;
+    @include font-size(24);
+    margin-bottom: 10px;
+    margin-bottom: 1rem;
+}
+.admin_title{
+    font-weight: 700;
+    color: $white;
+    text-transform: uppercase;
+}
+.result_container{
+    background: rgba($black,.2);
+    padding: 30px;
+    padding: 3rem;
+}
+
+.link_result{
+    @include text;
+    color: $white;
+    transition: .3s ease;
+    &:hover{
+        color: $admin_link;
+    }
+}
